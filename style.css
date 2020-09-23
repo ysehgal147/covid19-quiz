@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+body{
+    background-color: #F79F1F;
+    font-family: 'Spectral', serif;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    margin: 50px;
+    min-width: 400px;
+    min-height: 200px;
+}
+
+.timer{
+    justify-items: center;
+    text-align: center;
+}
+
+.question{
+    justify-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.answer{
+    justify-items: center;
+    text-align: center;
+}
+
+button{
+    background: transparent;
+    color:black;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 8px;
+    transition: .6s;
+    overflow: hidden;
+    margin: 10px;
+    border: 2px solid;
+    font-family: 'Spectral', serif;
+}
+
+button:hover{
+    background: black;
+    color: whitesmoke;
+    width: 220px;
+    height: 50px;
+    border: 0;
+    font-size: 22px;
+    border-radius: 8px;
+    transition: .4s;
+    overflow: hidden;
+    margin: 20px;
+    border: 2px solid black;
+    font-family: 'Spectral', serif;
+    font-weight: bolder;
+}
